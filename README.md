@@ -7,7 +7,7 @@ npm install redux-camelizer --save
 ```
 
 ## Usage example
-```
+```javascript
 import { createStore, applyMiddleware, combineReducers } from 'redux';
 import createCamelizer from 'redux-camelizer';
 import reducers from './reducers';
