@@ -1,0 +1,31 @@
+{
+  "name": "redux-camelizer",
+  "version": "0.0.1",
+  "description": "camelize middleware for Redux",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel index.js --out-dir lib",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+     "type": "git",
+     "url": "git+https://github.com/hiyamamo/redux-camelizer.git"
+  },
+  "keywords": [
+    "redux",
+    "middleware",
+    "camelize",
+    "redux-middleware"
+  ],
+  "author": "hiyamamo",
+  "license": "MIT",
+  "dependencies": {
+    "camelize": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
